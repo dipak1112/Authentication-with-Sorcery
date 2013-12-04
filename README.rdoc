@@ -1,0 +1,9 @@
+== README
+
+  bundle
+  rake sorcery:bootstrap
+  rails g sorcery_migration core remember_me
+  rails g model user --skip-migration
+  rake db:migrate
+  rails g controller users new
+  rails g controller sessions new
